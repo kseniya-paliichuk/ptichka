@@ -10,7 +10,7 @@ int main() {
 
 	if (a < 0 || b < 0 || c < 0) {
 		cout << "Числа положительные по условию!!!" << endl;
-		return main(); }
+		return 1; }
 
 	int res1 = a * b * c;
 	int res2 = a + b + c;
