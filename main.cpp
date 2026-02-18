@@ -4,7 +4,6 @@ using namespace std;
 int main() {
     setlocale(LC_ALL, "Russian");
     int n, m, i;
-    cout << "Введите m и n"<<endl;
     cout << "n= "; cin >> n;
     cout << "m= "; cin >> m;
     for (int i = 1; i < n; i++) {
