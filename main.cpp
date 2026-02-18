@@ -4,6 +4,7 @@ using namespace std;
 int main() {
     setlocale(LC_ALL, "Russian");
     int n, m, i;
+    cout << "Введіте натураные чісла m і n";
     cout << "n= "; cin >> n;
     cout << "m= "; cin >> m;
     for (int i = 1; i < n; i++) {
